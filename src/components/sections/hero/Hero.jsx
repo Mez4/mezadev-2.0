@@ -26,6 +26,7 @@ function Hero() {
         fifthColor={fifthColor}
         pointerColor={pointerColor}
         size={size}
+        containerClassName="shadow-[inset_0px_-80px_200px_-10px_#000000]"
       >
         <div className="text-2xl text-center md:text-4xl lg:text-7xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-bold z-10 font-sans dark:text-neutral-900 lg:leading-20">
           Alejandro Meza <br />
@@ -36,7 +37,6 @@ function Hero() {
           />
         </div>
       </BackgroundGradientAnimation>
-      <div className="h-screen"></div>
     </div>
   );
 }
