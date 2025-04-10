@@ -1,7 +1,7 @@
 import React from "react";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
 import { FlipWords } from "./flip-words";
-const words = ["   Creative", "Front-end"];
+const words = ["Creative Developer", "Front-end Developer", "UI/UX Designer"];
 
 const gradientStart = "rgb(0, 0, 0)";
 const gradientEnd = "rgb(165, 16, 224)";
@@ -27,14 +27,13 @@ function Hero() {
         pointerColor={pointerColor}
         size={size}
       >
-        <div className="text-6xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-bold z-10 font-sans dark:text-neutral-900">
+        <div className="text-3xl text-center md:text-4xl lg:text-7xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-bold z-10 font-sans dark:text-neutral-900 leading-20">
           Alejandro Meza <br />
           <FlipWords
             words={words}
-            duration={1000}
-            className="dark:text-gray-200"
+            duration={1500}
+            className="dark:text-neutral-200 text-shadow-lg/30"
           />
-          Developer
         </div>
       </BackgroundGradientAnimation>
       <div className="h-screen"></div>
