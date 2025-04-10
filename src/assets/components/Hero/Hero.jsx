@@ -27,7 +27,7 @@ function Hero() {
         pointerColor={pointerColor}
         size={size}
       >
-        <div className="text-3xl text-center md:text-4xl lg:text-7xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-bold z-10 font-sans dark:text-neutral-900 leading-20">
+        <div className="text-2xl text-center md:text-4xl lg:text-7xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center font-bold z-10 font-sans dark:text-neutral-900 lg:leading-20">
           Alejandro Meza <br />
           <FlipWords
             words={words}
