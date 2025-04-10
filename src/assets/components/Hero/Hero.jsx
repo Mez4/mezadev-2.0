@@ -32,7 +32,7 @@ function Hero() {
           <FlipWords
             words={words}
             duration={1500}
-            className="dark:text-neutral-200 text-shadow-lg/30"
+            className="dark:text-neutral-200 text-shadow-lg/30 text-center"
           />
         </div>
       </BackgroundGradientAnimation>
