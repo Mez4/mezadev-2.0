@@ -13,7 +13,7 @@ function TechCard({ icon, name }) {
       transition-shadow duration-300 ease-in-out
     "
     >
-      <div className="bg-neutral-500 text-white rounded-full w-[40px] h-[40px] flex justify-center items-center text-base md:text-lg">
+      <div className="text-violet-600 bg-neutral-100 rounded-full w-[40px] h-[40px] flex justify-center items-center text-base md:text-lg">
         {icon}
       </div>
       <p className="mt-2 xl:mt-0 xl:ml-5 font-semibold text-lg hidden 2xl:block">

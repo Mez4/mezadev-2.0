@@ -3,21 +3,35 @@ import avatar from "@/assets/images/avatar.png";
 import { TechCard } from "./tech-card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import {
+  SiJavascript,
+  SiReact,
+  SiAngular,
+  SiCss3,
+  SiHtml5,
+  SiNodedotjs,
+  SiTailwindcss,
+  SiFigma,
+  SiGit,
+  SiGithub,
+  SiVercel,
+  SiFirebase,
+} from "react-icons/si";
 import "swiper/css";
 
 const techs = [
-  { name: "Javascript", icon: "a" },
-  { name: "React", icon: "b" },
-  { name: "Angular", icon: "c" },
-  { name: "CSS", icon: "d" },
-  { name: "HTML", icon: "e" },
-  { name: "Node.js", icon: "f" },
-  { name: "Tailwind CSS", icon: "g" },
-  { name: "Figma", icon: "h" },
-  { name: "Git", icon: "i" },
-  { name: "Github", icon: "j" },
-  { name: "Vercel", icon: "k" },
-  { name: "Firebase", icon: "m" },
+  { name: "Javascript", icon: <SiJavascript size={20} /> },
+  { name: "React", icon: <SiReact size={20} /> },
+  { name: "Angular", icon: <SiAngular size={20} /> },
+  { name: "CSS", icon: <SiCss3 size={20} /> },
+  { name: "HTML", icon: <SiHtml5 size={20} /> },
+  { name: "Node.js", icon: <SiNodedotjs size={20} /> },
+  { name: "Tailwind CSS", icon: <SiTailwindcss size={20} /> },
+  { name: "Figma", icon: <SiFigma size={20} /> },
+  { name: "Git", icon: <SiGit size={20} /> },
+  { name: "Github", icon: <SiGithub size={20} /> },
+  { name: "Vercel", icon: <SiVercel size={20} /> },
+  { name: "Firebase", icon: <SiFirebase size={20} /> },
 ];
 
 function About() {
