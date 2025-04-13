@@ -18,6 +18,10 @@ import {
   SiFirebase,
   SiPhp,
   SiMysql,
+  SiLaravel,
+  SiSqlite,
+  SiRedux,
+  SiFramer,
 } from "react-icons/si";
 import "swiper/css";
 
@@ -36,6 +40,10 @@ const techs = [
   { name: "Firebase", icon: <SiFirebase size={20} /> },
   { name: "PHP", icon: <SiPhp size={20} /> },
   { name: "MySQL", icon: <SiMysql size={20} /> },
+  { name: "Laravel", icon: <SiLaravel size={20} /> },
+  { name: "SQLite", icon: <SiSqlite size={20} /> },
+  { name: "Redux", icon: <SiRedux size={20} /> },
+  { name: "Framer Motion", icon: <SiFramer size={20} /> },
 ];
 
 function About() {
@@ -52,7 +60,7 @@ function About() {
         <h1 className="font-sans font-bold text-5xl lg:text-6xl text-violet-600 w-full text-center p-5 text-shadow-lg/10">
           Alejandro Meza
         </h1>
-        <p className="text-center text-base text-gray-700 lg:p-10 w-full m-10 lg:text-2xl lg:leading-10">
+        <p className="text-center text-base text-gray-700 lg:p-10 w-full m-10 lg:text-xl 2xl:text-2xl lg:leading-10 ">
           Hola, soy Alejandro. Nací en el 98 y desde siempre me ha movido la
           curiosidad por entender cómo funcionan las cosas (y cómo hacer que se
           vean mejor). Me gusta aprender, crear y transformar ideas en algo
