@@ -46,5 +46,8 @@ html {
     }
   }
 }
+@theme {
+  --breakpoint-3xl: 120rem;
+}
 Copy
 lib/utils.ts

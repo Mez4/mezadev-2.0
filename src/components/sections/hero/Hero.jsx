@@ -15,7 +15,7 @@ const pointerColor = "71, 49, 152"; //blanco
 const size = "50%";
 function Hero() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <BackgroundGradientAnimation
         gradientBackgroundStart={gradientStart}
         gradientBackgroundEnd={gradientEnd}
