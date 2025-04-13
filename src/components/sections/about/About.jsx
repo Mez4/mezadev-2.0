@@ -16,6 +16,8 @@ import {
   SiGithub,
   SiVercel,
   SiFirebase,
+  SiPhp,
+  SiMysql,
 } from "react-icons/si";
 import "swiper/css";
 
@@ -32,6 +34,8 @@ const techs = [
   { name: "Github", icon: <SiGithub size={20} /> },
   { name: "Vercel", icon: <SiVercel size={20} /> },
   { name: "Firebase", icon: <SiFirebase size={20} /> },
+  { name: "PHP", icon: <SiPhp size={20} /> },
+  { name: "MySQL", icon: <SiMysql size={20} /> },
 ];
 
 function About() {
@@ -58,7 +62,8 @@ function About() {
           compartir lo que voy construyendo en el camino.
         </p>
       </div>
-      <div className="pb-20 relative flex w-full xl:w-1/2 justify-around lg:flex-wrap content-around overflow-x-hidden">
+      {/* carrusel de iconos de tecnologias para dispositivo movil */}
+      <div className="pb-20 relative flex w-full xl:w-1/2 justify-around lg:flex-wrap content-around overflow-x-hidden xl:hidden">
         {/* Contenedores creados para hacer el efecto de los gradientes laterales */}
         <div className="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-neutral-100 via-neutral-100/80 to-transparent pointer-events-none z-10" />
         <div className="absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-neutral-100 via-neutral-100/80 to-transparent pointer-events-none z-10" />
@@ -85,6 +90,13 @@ function About() {
             </SwiperSlide>
           ))}
         </Swiper>
+      </div>
+
+      {/* grid de iconos de tecnologias para desktop*/}
+      <div className="hidden xl:grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 gap-5 w-1/2 p-5">
+        {techs.map((tech, index) => {
+          return <TechCard key={index} icon={tech.icon} name={tech.name} />;
+        })}
       </div>
     </div>
   );

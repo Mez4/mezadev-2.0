@@ -3,7 +3,7 @@ function TechCard({ icon, name }) {
     <div
       className="bg-neutral-200 
       p-5 
-      w-[80px]  3xl:w-[29%] 
+      w-[80px]  2xl:w-[60%] 
       h-[80px] 2xl:h-20 
       rounded-xl 
       flex flex-col xl:flex-row 
@@ -13,7 +13,7 @@ function TechCard({ icon, name }) {
       transition-shadow duration-300 ease-in-out
     "
     >
-      <div className="text-violet-600 bg-neutral-100 rounded-full w-[40px] h-[40px] flex justify-center items-center text-base md:text-lg">
+      <div className="text-violet-600 bg-neutral-100 rounded-full min-w-[40px]  h-[40px] flex justify-center items-center text-base md:text-lg">
         {icon}
       </div>
       <p className="mt-2 xl:mt-0 xl:ml-5 font-semibold text-lg hidden 2xl:block">
