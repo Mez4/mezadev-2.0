@@ -49,8 +49,8 @@ const techs = [
 function About() {
   return (
     <div className="flex items-center justify-center min-h-screen dark:bg-neutral-100 justify-around flex-wrap overflow-x-hidden">
-      <div className="flex xl:max-w-1/2 flex-wrap justify-center content-start pb-10">
-        <div className="flex w-full justify-center h-1/2 p-20 mt-10">
+      <div className="flex xl:max-w-1/2 flex-wrap justify-center content-start">
+        <div className="flex w-full justify-center h-1/2 p-20">
           <img
             src={avatar}
             alt="Avatar de Alejandro Meza desarrollador web"
@@ -101,7 +101,7 @@ function About() {
       </div>
 
       {/* grid de iconos de tecnologias para desktop*/}
-      <div className="hidden xl:grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 gap-5 w-1/2 p-5">
+      <div className="hidden xl:grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-2 w-1/2">
         {techs.map((tech, index) => {
           return <TechCard key={index} icon={tech.icon} name={tech.name} />;
         })}
