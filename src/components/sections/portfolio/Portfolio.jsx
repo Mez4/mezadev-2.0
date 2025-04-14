@@ -118,7 +118,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <div className=" justify-center h-screen w-full bg-neutral-100 2xl:p-15">
+    <div className=" justify-center w-full bg-neutral-100 2xl:p-15 min-h-full">
       <div className="bg-gradient-to-r from-[#4568DC] to-[#B06AB3] min-h-full flex items-start justify-center 2xl:rounded-4xl inset-shadow-sm 2xl:inset-shadow-gray-900 flex-wrap p-5 md:p-20">
         <h1 className="text-center 2xl:text-left text-white w-full text-5xl lg:text-6xl font-bold mb-10 text-shadow-lg/50">
           Proyectos
