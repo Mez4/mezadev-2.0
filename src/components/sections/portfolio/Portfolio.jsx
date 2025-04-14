@@ -8,15 +8,36 @@ import operativappUIUXThumbnail from "@/assets/images/operativapp-ux.png";
 import coderhouseThumbnail from "@/assets/images/coderhouse.png";
 import threejsJourneyThumbnail from "@/assets/images/threejs.png";
 import atardecerThumbnail from "@/assets/images/atardecer.png";
+import mezadevUIUXThumbnail from "@/assets/images/mezadev-wireframe.png";
+import brasaThumbnail from "@/assets/images/brasa.png";
+import ossoThumbnail from "@/assets/images/osso.png";
+import mezadevV2Thumbnail from "@/assets/images/mezadev-v2.png";
 
 const projects = [
   {
-    title: "OperativApp Desarrollo Móvil",
-    image: operativappThumbnail,
+    title: "Primer proyecto con Three.js",
+    image: atardecerThumbnail,
     modalDescription:
-      "Aplicando los conocimientos adquiridos durante mis estudios, inicié el desarrollo de una aplicación móvil utilizando tecnologías modernas. Para este proyecto empleé React Native, un framework de JavaScript que permite crear aplicaciones compatibles con dispositivos Android e iOS. Además, integré Firebase como servicio backend para la gestión de la base de datos y otras funcionalidades en la nube.",
-    liveLink: "https://github.com/Mez4/Operativapp",
-    githubLink: "https://github.com/Mez4/Operativapp",
+      "Actualmente curso Three.js Journey de Bruno Simon, un programa avanzado enfocado en gráficos 3D interactivos con Three.js. Me ha permitido explorar la integración entre desarrollo web y creatividad visual, aplicando lo aprendido en proyectos personales.",
+    liveLink: "https://0x7444ff-2d-day-night.vercel.app/",
+    githubLink: "https://github.com/Mez4?tab=repositories",
+  },
+  {
+    title: "Three.js Journey",
+    image: threejsJourneyThumbnail,
+    modalDescription:
+      "Actualmente curso Three.js Journey de Bruno Simon, un programa avanzado enfocado en gráficos 3D interactivos con Three.js. Me ha permitido explorar la integración entre desarrollo web y creatividad visual, aplicando lo aprendido en proyectos personales.",
+    liveLink: "https://threejs-journey.com/",
+    githubLink: "https://github.com/Mez4?tab=repositories",
+  },
+  {
+    title: "Operativapp UI/UX",
+    image: operativappUIUXThumbnail,
+    modalDescription:
+      "Diseñé por completo la interfaz de usuario de una aplicación móvil utilizando Figma como herramienta principal. Gracias a sus funciones colaborativas en la nube, pude gestionar el diseño de forma organizada y eficiente. El proyecto fue desarrollado de manera individual, desde la idea inicial hasta el prototipo final.",
+    liveLink:
+      "https://www.figma.com/proto/CZrIELddigqZXCJwT5MsTL/MESEROS-UX?node-id=1-2&starting-point-node-id=1%3A2",
+    githubLink: "https://github.com/Mez4?tab=repositories",
   },
   {
     title: "E-commerce LOBUS",
@@ -27,12 +48,28 @@ const projects = [
     githubLink: "https://github.com/Mez4/lobus",
   },
   {
-    title: "Primer proyecto con Three.js",
-    image: atardecerThumbnail,
+    title: "Colegio América versión Móvil",
+    image: colegioThumbnail,
     modalDescription:
-      "Actualmente curso Three.js Journey de Bruno Simon, un programa avanzado enfocado en gráficos 3D interactivos con Three.js. Me ha permitido explorar la integración entre desarrollo web y creatividad visual, aplicando lo aprendido en proyectos personales.",
-    liveLink: "https://0x7444ff-2d-day-night.vercel.app/",
+      "Este proyecto me permitió trabajar de cerca con el cliente, entendiendo sus necesidades y plasmándolas en código. Formé parte de un equipo de desarrollo utilizando HTML, CSS y JavaScript. Aunque no se finalizó por razones externas, fortaleció mis habilidades de comunicación y adaptación a requerimientos reales. ",
+    liveLink: "https://meza-dev.vercel.app/assets/nosoyelcolegio/colegio.html",
     githubLink: "https://github.com/Mez4?tab=repositories",
+  },
+  {
+    title: "Brasa Desarrollos",
+    image: brasaThumbnail,
+    modalDescription:
+      "En el 2023 fui contratado de forma independiente para desarrollar el sitio web de las Residencias en Nubium de Brasa Desarrollos. Implementé una interfaz atractiva y responsiva, destacando los modelos residenciales y amenidades del fraccionamiento Cirrus. Utilicé tecnologías como HTML, CSS y JavaScript.",
+    liveLink: "https://brasa.com.mx/",
+    githubLink: "https://github.com/Mez4?tab=repositories",
+  },
+  {
+    title: "OperativApp Desarrollo Móvil",
+    image: operativappThumbnail,
+    modalDescription:
+      "Aplicando los conocimientos adquiridos durante mis estudios, inicié el desarrollo de una aplicación móvil utilizando tecnologías modernas. Para este proyecto empleé React Native, un framework de JavaScript que permite crear aplicaciones compatibles con dispositivos Android e iOS. Además, integré Firebase como servicio backend para la gestión de la base de datos y otras funcionalidades en la nube.",
+    liveLink: "https://github.com/Mez4/Operativapp",
+    githubLink: "https://github.com/Mez4/Operativapp",
   },
   {
     title: "MezaDev-v1",
@@ -42,14 +79,7 @@ const projects = [
     liveLink: "https://meza-dev.vercel.app/",
     githubLink: "https://github.com/Mez4/MezaDev",
   },
-  {
-    title: "Colegio América versión Móvil",
-    image: colegioThumbnail,
-    modalDescription:
-      "Este proyecto representó una experiencia muy enriquecedora a nivel profesional, ya que implicó un fuerte trabajo de campo y comunicación directa con el cliente para entender sus necesidades y traducirlas en soluciones funcionales. Formé parte del equipo de desarrollo dentro de una empresa del rubro, colaborando con tecnologías como HTML, CSS y JavaScript. Aunque el proyecto no se completó por motivos ajenos a lo técnico, me permitió desarrollar habilidades clave en trato con clientes y adaptación a requerimientos reales. Actualmente, puede consultarse la versión que entregué comparándola con la página actual del colegio.",
-    liveLink: "https://meza-dev.vercel.app/assets/nosoyelcolegio/colegio.html",
-    githubLink: "https://github.com/Mez4?tab=repositories",
-  },
+
   {
     title: "CoderHouse",
     image: coderhouseThumbnail,
@@ -59,21 +89,30 @@ const projects = [
     githubLink: "https://github.com/Mez4?tab=repositories",
   },
   {
-    title: "Operativapp UI/UX",
-    image: operativappUIUXThumbnail,
+    title: "MezaDev-v2 Wireframe",
+    image: mezadevUIUXThumbnail,
     modalDescription:
-      "En este proyecto me encargué del diseño completo de la interfaz de usuario para una aplicación móvil. Utilicé Figma como herramienta principal, una plataforma de diseño y prototipado basada en la web que permite la colaboración en tiempo real. Al estar alojada en la nube, Figma facilita compartir el proyecto y trabajar en equipo de manera eficiente. Todo el desarrollo del diseño fue realizado de forma individual.",
+      "En este proyecto diseñé el wireframe de la segunda versión de mi portafolio personal utilizando Figma. Me enfoqué en mejorar la estructura, la experiencia de usuario y la organización del contenido, con una base más sólida para futuras implementaciones. Este trabajo me permitió planificar de forma visual y estratégica el rediseño de mi portafolio, priorizando usabilidad y escalabilidad.",
     liveLink:
-      "https://www.figma.com/proto/CZrIELddigqZXCJwT5MsTL/MESEROS-UX?node-id=1-2&starting-point-node-id=1%3A2",
-    githubLink: "https://github.com/Mez4?tab=repositories",
+      "https://www.figma.com/design/ei6J7EcfIzkgnbvRpYhRAm/Wireframe---Portfolio---Mezadev?node-id=1140-6414&p=f&t=XfHl4t0dKhgtIiYx-0",
+    githubLink: "https://github.com/Mez4/",
   },
   {
-    title: "Three.js Journey",
-    image: threejsJourneyThumbnail,
+    title: "Osso Restaurante",
+    image: ossoThumbnail,
     modalDescription:
-      "Actualmente curso Three.js Journey de Bruno Simon, un programa avanzado enfocado en gráficos 3D interactivos con Three.js. Me ha permitido explorar la integración entre desarrollo web y creatividad visual, aplicando lo aprendido en proyectos personales.",
-    liveLink: "https://threejs-journey.com/",
-    githubLink: "https://github.com/Mez4?tab=repositories",
+      "En 2019, fui contratado de forma independiente para colaborar en el desarrollo del sitio web de Osso, un restaurante de carnes. En ese entonces, Osso contaba con una sola sede y comenzaba a consolidarse como una propuesta innovadora en la escena gastronómica local. Mi trabajo consistió en implementar una interfaz funcional y atractiva que reflejara la identidad del restaurante y facilitara la experiencia del usuario.",
+    liveLink:
+      "https://www.figma.com/design/ei6J7EcfIzkgnbvRpYhRAm/Wireframe---Portfolio---Mezadev?node-id=1140-6414&p=f&t=XfHl4t0dKhgtIiYx-0",
+    githubLink: "https://github.com/Mez4/",
+  },
+  {
+    title: "MezaDev-v2",
+    image: mezadevV2Thumbnail,
+    modalDescription:
+      "La segunda versión de mi portafolio personal fue diseñada y desarrollada desde cero con un enfoque más sólido en UI/UX y estructura. Implementé mejoras en la navegación, organización del contenido y presentación de proyectos. Para su desarrollo utilicé React y Tailwind CSS, logrando una base moderna, escalable y fácil de mantener.",
+    liveLink: "https://mezadev-2-0.vercel.app/",
+    githubLink: "https://github.com/Mez4/mezadev-2.0",
   },
 ];
 
